@@ -34,14 +34,9 @@ html,body{
 	height: 100%;
 }
 .homePageone{
-	background: url(../images/home-one.png);
+	background: url(../images/home-one.jpg);
 	-webkit-background-size: cover;
 	background-size: cover;
-}
-.homePageoneUp{
-	display: block;
-	width: 100%;
-	height: 85%;
 }
 .homePageone p i{
 	font-family: "NEOTERIC";
@@ -63,13 +58,26 @@ html,body{
 .homePageone img{
 	width: 6.4rem;
 	height: 4rem;
-	
+}
+@media (min-height:1300px) {
+.homePageoneUp{
+	display: block;
+	width: 100%;
+	height: 85%;
+}
+}
+@media (max-height:1300px) {
+.homePageoneUp{
+	display: block;
+	width: 100%;
+	height: 70%;
+}
 }
 
 
 /*homePagetwo*/
 
-/* .homePagetwo{
+.homePagetwo{
 	padding: 0 6%;
 }
 .homePagetwo .homePagetwoImg{
@@ -107,7 +115,7 @@ html,body{
 	line-height: 4rem;
 	border-top: #555 solid 0.1rem;
 }
- */
+ 
 /*homePagetwo王*/
 .homePagetwo{
 	padding: 0 6%;
@@ -347,30 +355,30 @@ html,body{
 /*********谢5*******/
 .p5_wrapper{
 	width:80%;
-	height:100rem;
+	height:93rem;
 	background:url(../images/background.png) no-repeat center;
 	background-size: 100% 100%;
 	display:block;
-	margin:15% auto;
+	margin:12% auto;
 }
 .p5_header{
 	width:100%;
 	height:17rem;
 	display:block;
-	line-height: 17rem;
+	line-height: 14.5rem;
 	text-align: center;
 	font-weight: bolder;
-	font-size: 4rem;
+	font-size: 4.8rem;
 }
 .p5_list1{
-	width:57rem;
+	width:60rem;
 	height:20rem;
+	line-height: 3.5rem;
 	display:block;
 	margin:5rem auto 0 auto;
 	text-align: left;
 	font-size: 3rem;
 	font-weight: bolder;
-	padding-top: 5rem;
 }
 .p5_null{
 	width:100%;
@@ -389,6 +397,7 @@ html,body{
 	margin:0 auto;
 	text-align: center;
 	font-weight: bolder;
+	line-height: 3.5rem;
 	font-size: 3rem;
 	padding-top:5rem;
 }
@@ -402,7 +411,7 @@ html,body{
 	height:10rem;
 	line-height: 10rem;
 	display:block;
-	margin:4rem auto 0 auto;
+	margin:3rem auto 0 auto;
 	background:#f29b76;
 	text-align: center;
 	color:#fff;
@@ -445,13 +454,19 @@ html,body{
 	width: 77rem;
 	height: 16rem;
 	text-align: center;
+	margin: 0 auto;
 	color: #000;
 	font-weight: bold;
 	border-bottom: 0.2rem #CBC5C3 solid; 
 }
+.homePageten .title_wrap{
+	width:64.5rem;
+	height: 16rem;
+	margin:0 auto; 
+}
 .title .top_left{
 	font-size: 11.6rem;
-	margin-left: 7.5rem;
+	/* margin-left: 7.5rem; */
 }
 .title .top_right{
 	margin: 0.8rem 0 1.4rem 0.8rem;
@@ -491,9 +506,9 @@ html,body{
 	margin-top: 5.6rem;
 }
 .homePageten .btns{
-	width: 38rem;
-	height: 40rem;
-	margin: 13rem 0 0 20rem;
+	width: 40rem;
+	height: 10rem;
+	margin: 13rem auto 0 auto;
 }
 .btns .btn{
 	width: 38rem;
@@ -527,9 +542,10 @@ html,body{
 }
 .homePageelevendet{
 	width: 100%;
-	height: 83rem;
+	height: 87rem;
 	background: #fff;
 	border-radius: 1.2rem;
+	margin-top: 1rem;
 }
 /* .homePageeleven .border{
 	width:80%;
@@ -538,13 +554,16 @@ html,body{
 	margin:0 auto;
 } */
 .homePageelevenImg{
-	margin:0 0 1rem 32rem;
+	display: block;
+    margin: 0 auto;
 }
-.homePageelevendet h1{
+.homePageelevendet .cert{
+	padding-left: 27%;
 	position: relative;
 	text-align: center;
-	margin: 2rem 0;
-	line-height: 7rem;
+	margin: 2rem auto 0 auto;
+    line-height: 8rem;
+	margin-top: 2rem;
 	font-size: 4.8rem;
 	font-weight: bolder;
 	border-left: #00a0e9 solid 0.5rem;
